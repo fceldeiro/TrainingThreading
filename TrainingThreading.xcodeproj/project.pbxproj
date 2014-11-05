@@ -14,6 +14,8 @@
 		CD76181A1A09472100065E59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7618191A09472100065E59 /* Images.xcassets */; };
 		CD76181D1A09472100065E59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD76181B1A09472100065E59 /* LaunchScreen.xib */; };
 		CD7618291A09472100065E59 /* TrainingThreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7618281A09472100065E59 /* TrainingThreadingTests.m */; };
+		CD7618341A09525000065E59 /* ValueLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7618331A09525000065E59 /* ValueLogger.m */; };
+		CD7618381A0A87A800065E59 /* OperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7618371A0A87A800065E59 /* OperationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		CD7618221A09472100065E59 /* TrainingThreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingThreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7618271A09472100065E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD7618281A09472100065E59 /* TrainingThreadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingThreadingTests.m; sourceTree = "<group>"; };
+		CD7618321A09525000065E59 /* ValueLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueLogger.h; sourceTree = "<group>"; };
+		CD7618331A09525000065E59 /* ValueLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueLogger.m; sourceTree = "<group>"; };
+		CD7618361A0A87A800065E59 /* OperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationManager.h; sourceTree = "<group>"; };
+		CD7618371A0A87A800065E59 /* OperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				CD7618191A09472100065E59 /* Images.xcassets */,
 				CD76181B1A09472100065E59 /* LaunchScreen.xib */,
 				CD76180C1A09472100065E59 /* Supporting Files */,
+				CD7618321A09525000065E59 /* ValueLogger.h */,
+				CD7618331A09525000065E59 /* ValueLogger.m */,
+				CD7618361A0A87A800065E59 /* OperationManager.h */,
+				CD7618371A0A87A800065E59 /* OperationManager.m */,
 			);
 			path = TrainingThreading;
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 				CD7618151A09472100065E59 /* ViewController.m in Sources */,
 				CD7618121A09472100065E59 /* AppDelegate.m in Sources */,
 				CD76180F1A09472100065E59 /* main.m in Sources */,
+				CD7618381A0A87A800065E59 /* OperationManager.m in Sources */,
+				CD7618341A09525000065E59 /* ValueLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				CD76182E1A09472100065E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD76182F1A09472100065E59 /* Build configuration list for PBXNativeTarget "TrainingThreadingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				CD7618311A09472100065E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
