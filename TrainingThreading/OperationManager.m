@@ -27,6 +27,7 @@
         
 }
 
+
 //ORIGINAL
 
 -(void) startOperationsWithCompletitionBlock:(void (^)(BOOL finished))completionBlock{
@@ -45,7 +46,7 @@
     
     
   
-        
+    
     [self.valueLogger printValuesWithCompletitionBlock:^(NSUInteger valuesCount) {
         if (valuesCount == valuesToAdd){
             completionBlock(YES);
